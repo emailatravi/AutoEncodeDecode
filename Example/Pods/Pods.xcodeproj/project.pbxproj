@@ -7,339 +7,408 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06C726C3BC61498393BDF6D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD326267943D96577BB0AD4 /* Foundation.framework */; };
-		0A913E9C14542A2FB536F34D /* Pods-AutoEncodeDecode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1C2AAAA037D198134E430A /* Pods-AutoEncodeDecode-dummy.m */; };
-		295A0568C0267CAA8087893A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD326267943D96577BB0AD4 /* Foundation.framework */; };
-		5B517601FC7A8AA1990F4DB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD326267943D96577BB0AD4 /* Foundation.framework */; };
-		6A7814A2FF7041D23FCD9DBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD326267943D96577BB0AD4 /* Foundation.framework */; };
-		6E2BC641A0C32873FC919EBD /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E650FF0E55CD6DF5E53D14 /* BaseModel.h */; };
-		7613CE60AB26C5EDF74446A0 /* NSObject+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC301385C193DFF9E3FA2EC /* NSObject+NSCoding.h */; };
-		7BD0EA6418092A7B720073A2 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E17658643CB64D0A0EBFBB3 /* BaseModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9BD41BF70BAA2AB820B6548D /* NSObject+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CE74A79AA330820BD3F708 /* NSObject+NSCoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9E90CF026E7EC6A40E9F2AF2 /* ClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 434F32F9A44BA3C0F02C284A /* ClassProperty.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BB8F43DB55DDE863665ED7F5 /* ClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F5D789F9AC1D1BD336D994B /* ClassProperty.h */; };
-		BC07C3A46DF6A5D4FA0C3D21 /* NSObject+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CE74A79AA330820BD3F708 /* NSObject+NSCoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CB9D28B2781FD233DFA1EB14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD326267943D96577BB0AD4 /* Foundation.framework */; };
-		DAA311A1C3BDE10045093D84 /* NSObject+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC301385C193DFF9E3FA2EC /* NSObject+NSCoding.h */; };
-		DD2019FC7EED10332389AE42 /* Pods-Tests-AutoEncodeDecode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1055604E5076BF590102B635 /* Pods-Tests-AutoEncodeDecode-dummy.m */; };
-		E59405BDCEF787C14708F073 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E17658643CB64D0A0EBFBB3 /* BaseModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E7E9CDE0FCB6C03CB745BFE6 /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E650FF0E55CD6DF5E53D14 /* BaseModel.h */; };
-		EBEA934C78E9DA5716D056F7 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C03C7463614D882C208953 /* Pods-Tests-dummy.m */; };
-		F60DC95C1991CDB0F5D0DAAA /* Pods-AutoEncodeDecode-AutoEncodeDecode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE04BF4B32791C6D2329145 /* Pods-AutoEncodeDecode-AutoEncodeDecode-dummy.m */; };
-		F8166314181E725B39998819 /* Pods-AutoEncodeDecode-ClassProperty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE9AA4E27902C0E6706C88B /* Pods-AutoEncodeDecode-ClassProperty-dummy.m */; };
+		0CC789CC0490FB81F7E85D09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45DD6F16D145B6C0C7A98FD /* Foundation.framework */; };
+		20E13B8B6FDDF832011D1E26 /* NSObject+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF6DFDD2D04CA10735F1B8 /* NSObject+NSCoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2116717B9F14AB4167257586 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED234656F5079F0E59CCD44 /* BaseModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		23CC774A58D30BFD1C475F09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45DD6F16D145B6C0C7A98FD /* Foundation.framework */; };
+		2747316D638FE11A64CBFA08 /* Pods-AutoEncodeDecode-ClassProperty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A6A9B35FF64468ACE1AD73 /* Pods-AutoEncodeDecode-ClassProperty-dummy.m */; };
+		2B0F6DFE46FC6B95E48C8B25 /* Pods-Tests-ClassProperty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257A8A228B90CB67AD02103 /* Pods-Tests-ClassProperty-dummy.m */; };
+		307D66A8310E763C1C408BB4 /* Pods-AutoEncodeDecode-AutoEncodeDecode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3078945EFED8274C0CBA9D /* Pods-AutoEncodeDecode-AutoEncodeDecode-dummy.m */; };
+		4928AE12532C7680E4A315AB /* NSObject+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA9FD7F365867057D039F32 /* NSObject+NSCoding.h */; };
+		4F190AC66DE32AE0A5A97A79 /* ClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = A23B1B35D794837EDC559A2F /* ClassProperty.h */; };
+		641F869440477A5B14013B31 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9262A048DCA62AD347677BF /* Pods-Tests-dummy.m */; };
+		6A059F372FF719BFD97E68AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45DD6F16D145B6C0C7A98FD /* Foundation.framework */; };
+		87F00B2F9884C716F532DDFF /* ClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 91971589A0B54F5A54002FD8 /* ClassProperty.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		881628C75D723F6864A4366E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45DD6F16D145B6C0C7A98FD /* Foundation.framework */; };
+		8996FEC1E36EE7975550F404 /* Pods-AutoEncodeDecode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF99C0599B096B10F417256 /* Pods-AutoEncodeDecode-dummy.m */; };
+		89C313680868F053F3EEE6A6 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED234656F5079F0E59CCD44 /* BaseModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		958FE7CE96C0C2B26CB52142 /* NSObject+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA9FD7F365867057D039F32 /* NSObject+NSCoding.h */; };
+		A29408490295215735ABA4AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45DD6F16D145B6C0C7A98FD /* Foundation.framework */; };
+		A53B1886D46028A75E6731B6 /* Pods-Tests-AutoEncodeDecode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3563EC2198ADF9C2C869FED2 /* Pods-Tests-AutoEncodeDecode-dummy.m */; };
+		A67671B96F004CAD65017AAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45DD6F16D145B6C0C7A98FD /* Foundation.framework */; };
+		C4E08229428550445F0DF47F /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D8282F4F59D9ADB26F4E70B9 /* BaseModel.h */; };
+		C8C85E6EB5B0690E2E2D4A6E /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D8282F4F59D9ADB26F4E70B9 /* BaseModel.h */; };
+		C8F641D5589F677099CB03D6 /* ClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = A23B1B35D794837EDC559A2F /* ClassProperty.h */; };
+		F3431FAF742439A83D075A00 /* ClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 91971589A0B54F5A54002FD8 /* ClassProperty.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FE34B08C8D974EB1185A478B /* NSObject+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF6DFDD2D04CA10735F1B8 /* NSObject+NSCoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3A7AB6621FDF0292DD190813 /* PBXContainerItemProxy */ = {
+		040CFC13E53A865DABE37C24 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 62CC8F257A213D394238FE8D /* Project object */;
+			containerPortal = 415C73995AC8773F99FBEBDF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 66A068454011726E3246AFB6;
-			remoteInfo = "Pods-AutoEncodeDecode-AutoEncodeDecode";
+			remoteGlobalIDString = FD68FE713F97FFF379C6104A;
+			remoteInfo = "Pods-Tests-ClassProperty";
 		};
-		8F5443CDC51E423AFE6AAB61 /* PBXContainerItemProxy */ = {
+		0E4C08A28AB1DF0AECFD882E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 62CC8F257A213D394238FE8D /* Project object */;
+			containerPortal = 415C73995AC8773F99FBEBDF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 35541E4F663F0BCB625E2B26;
+			remoteGlobalIDString = FD68FE713F97FFF379C6104A;
+			remoteInfo = "Pods-Tests-ClassProperty";
+		};
+		586D0AD627DE2C5F26AA8D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 415C73995AC8773F99FBEBDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7967059DB2E30CB30F30C81;
+			remoteInfo = "Pods-Tests-AutoEncodeDecode";
+		};
+		7D1B49D2BBA146F1AC920187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 415C73995AC8773F99FBEBDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23299C09324B5DCD784E2D4B;
 			remoteInfo = "Pods-AutoEncodeDecode-ClassProperty";
 		};
-		C9E8356A18693F60EE0D0FBD /* PBXContainerItemProxy */ = {
+		9B8B37BC23EB02054E89BD23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 62CC8F257A213D394238FE8D /* Project object */;
+			containerPortal = 415C73995AC8773F99FBEBDF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 46282023B578D276ED51542B;
-			remoteInfo = "Pods-Tests-AutoEncodeDecode";
+			remoteGlobalIDString = 23299C09324B5DCD784E2D4B;
+			remoteInfo = "Pods-AutoEncodeDecode-ClassProperty";
+		};
+		C189CD9F30D3D561031F155C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 415C73995AC8773F99FBEBDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1AC119957222CB46028E19;
+			remoteInfo = "Pods-AutoEncodeDecode-AutoEncodeDecode";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019F1794EC44D4A57C8278AA /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		05C03C7463614D882C208953 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		09E650FF0E55CD6DF5E53D14 /* BaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
-		0D30CCC5DA2847D9E26A6851 /* Pods-AutoEncodeDecode-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoEncodeDecode-environment.h"; sourceTree = "<group>"; };
-		1055604E5076BF590102B635 /* Pods-Tests-AutoEncodeDecode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-AutoEncodeDecode-dummy.m"; path = "../Pods-Tests-AutoEncodeDecode/Pods-Tests-AutoEncodeDecode-dummy.m"; sourceTree = "<group>"; };
-		11214FAE926B889237E60080 /* libPods-AutoEncodeDecode-ClassProperty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoEncodeDecode-ClassProperty.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2042A88A0A89B0FC0F461AAB /* Pods-Tests-AutoEncodeDecode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-AutoEncodeDecode.xcconfig"; path = "../Pods-Tests-AutoEncodeDecode/Pods-Tests-AutoEncodeDecode.xcconfig"; sourceTree = "<group>"; };
-		236BAA3827DE8D1E0622E908 /* Pods-AutoEncodeDecode-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoEncodeDecode-acknowledgements.plist"; sourceTree = "<group>"; };
-		2719B67B2A52057551533BF6 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F5D789F9AC1D1BD336D994B /* ClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClassProperty.h; path = Pod/Classes/ClassProperty.h; sourceTree = "<group>"; };
-		41C3BB600612F243DECE72BF /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		434F32F9A44BA3C0F02C284A /* ClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClassProperty.m; path = Pod/Classes/ClassProperty.m; sourceTree = "<group>"; };
-		43DBCE02B220AB83D4ABD018 /* Pods-Tests-AutoEncodeDecode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-AutoEncodeDecode-prefix.pch"; path = "../Pods-Tests-AutoEncodeDecode/Pods-Tests-AutoEncodeDecode-prefix.pch"; sourceTree = "<group>"; };
-		469DC9195E63B00439EE187C /* libPods-Tests-AutoEncodeDecode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-AutoEncodeDecode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A24531275E205E45A6DED6F /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		4B45C269D24CC7111E60CE73 /* Pods-AutoEncodeDecode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoEncodeDecode.debug.xcconfig"; sourceTree = "<group>"; };
-		5C653441ECB4660E9D5FBD3E /* Pods-AutoEncodeDecode-AutoEncodeDecode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoEncodeDecode-AutoEncodeDecode-prefix.pch"; sourceTree = "<group>"; };
-		5E17658643CB64D0A0EBFBB3 /* BaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
-		5EFE56676133DDDD52A1C041 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		63EA3B38D15178DD733962D1 /* Pods-AutoEncodeDecode-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutoEncodeDecode-acknowledgements.markdown"; sourceTree = "<group>"; };
-		64B4CA3354829E5AE427A8E5 /* Pods-AutoEncodeDecode-ClassProperty-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoEncodeDecode-ClassProperty-prefix.pch"; sourceTree = "<group>"; };
-		7BDF7C56F388286397DC1CD1 /* libPods-AutoEncodeDecode-AutoEncodeDecode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoEncodeDecode-AutoEncodeDecode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81E89F2846A97A21067E8327 /* Pods-Tests-AutoEncodeDecode-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-AutoEncodeDecode-Private.xcconfig"; path = "../Pods-Tests-AutoEncodeDecode/Pods-Tests-AutoEncodeDecode-Private.xcconfig"; sourceTree = "<group>"; };
-		96CE74A79AA330820BD3F708 /* NSObject+NSCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSCoding.m"; sourceTree = "<group>"; };
-		AF1C2AAAA037D198134E430A /* Pods-AutoEncodeDecode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoEncodeDecode-dummy.m"; sourceTree = "<group>"; };
-		AF6A72D52F2E2F95112723E9 /* Pods-AutoEncodeDecode-AutoEncodeDecode-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoEncodeDecode-AutoEncodeDecode-Private.xcconfig"; sourceTree = "<group>"; };
-		AFE1A230D47BC68A43BABEF8 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BB386D97137D405DC8E665B5 /* Pods-AutoEncodeDecode-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoEncodeDecode-resources.sh"; sourceTree = "<group>"; };
-		BCF27E18D516472ABA5B2E16 /* Pods-AutoEncodeDecode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoEncodeDecode.release.xcconfig"; sourceTree = "<group>"; };
-		CBD326267943D96577BB0AD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D129BAA2AD734E4EC818DD73 /* Pods-AutoEncodeDecode-AutoEncodeDecode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoEncodeDecode-AutoEncodeDecode.xcconfig"; sourceTree = "<group>"; };
-		D8421934EDD255FBE6A15444 /* Pods-AutoEncodeDecode-ClassProperty.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoEncodeDecode-ClassProperty.xcconfig"; sourceTree = "<group>"; };
-		DDC301385C193DFF9E3FA2EC /* NSObject+NSCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSCoding.h"; sourceTree = "<group>"; };
-		DEF13966986BD4D5213EF52D /* libPods-AutoEncodeDecode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoEncodeDecode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7D7ADA19B89D627EE005B27 /* Pods-AutoEncodeDecode-ClassProperty-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoEncodeDecode-ClassProperty-Private.xcconfig"; sourceTree = "<group>"; };
-		ECB6E9235F3CEC7B8D6412DD /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EF7EE049F530DEAA11BDAD8B /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FAE04BF4B32791C6D2329145 /* Pods-AutoEncodeDecode-AutoEncodeDecode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoEncodeDecode-AutoEncodeDecode-dummy.m"; sourceTree = "<group>"; };
-		FAE9AA4E27902C0E6706C88B /* Pods-AutoEncodeDecode-ClassProperty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoEncodeDecode-ClassProperty-dummy.m"; sourceTree = "<group>"; };
+		05EE019E17E6D96755AE25A0 /* libPods-AutoEncodeDecode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoEncodeDecode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B962B3F92E6606582612EC5 /* libPods-Tests-AutoEncodeDecode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-AutoEncodeDecode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA9FD7F365867057D039F32 /* NSObject+NSCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSCoding.h"; sourceTree = "<group>"; };
+		0FF99C0599B096B10F417256 /* Pods-AutoEncodeDecode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoEncodeDecode-dummy.m"; sourceTree = "<group>"; };
+		150B212C51C68D36C2E4BC45 /* Pods-Tests-AutoEncodeDecode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-AutoEncodeDecode.xcconfig"; path = "../Pods-Tests-AutoEncodeDecode/Pods-Tests-AutoEncodeDecode.xcconfig"; sourceTree = "<group>"; };
+		1AB385DF6E7D7524862A9CB6 /* Pods-AutoEncodeDecode-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoEncodeDecode-acknowledgements.plist"; sourceTree = "<group>"; };
+		2257A8A228B90CB67AD02103 /* Pods-Tests-ClassProperty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-ClassProperty-dummy.m"; path = "../Pods-Tests-ClassProperty/Pods-Tests-ClassProperty-dummy.m"; sourceTree = "<group>"; };
+		3563EC2198ADF9C2C869FED2 /* Pods-Tests-AutoEncodeDecode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-AutoEncodeDecode-dummy.m"; path = "../Pods-Tests-AutoEncodeDecode/Pods-Tests-AutoEncodeDecode-dummy.m"; sourceTree = "<group>"; };
+		3C4041C7A6BB3C9136760922 /* Pods-AutoEncodeDecode-ClassProperty-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoEncodeDecode-ClassProperty-Private.xcconfig"; sourceTree = "<group>"; };
+		418A5C1FBA6D517C55BDFCA4 /* Pods-AutoEncodeDecode-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutoEncodeDecode-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45419CDB7834D51E9A0CEB5F /* Pods-AutoEncodeDecode-AutoEncodeDecode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoEncodeDecode-AutoEncodeDecode.xcconfig"; sourceTree = "<group>"; };
+		4FC86613C7551028687A5871 /* Pods-AutoEncodeDecode-AutoEncodeDecode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoEncodeDecode-AutoEncodeDecode-prefix.pch"; sourceTree = "<group>"; };
+		53C3359D555B05BB47BCFCEB /* Pods-AutoEncodeDecode-ClassProperty-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoEncodeDecode-ClassProperty-prefix.pch"; sourceTree = "<group>"; };
+		5ABE257CE48D963CE27CD47E /* libPods-AutoEncodeDecode-AutoEncodeDecode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoEncodeDecode-AutoEncodeDecode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B6927AB41DF319BACAC190 /* Pods-Tests-ClassProperty-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-ClassProperty-Private.xcconfig"; path = "../Pods-Tests-ClassProperty/Pods-Tests-ClassProperty-Private.xcconfig"; sourceTree = "<group>"; };
+		6EF1C22ABD1EDB7CB5BEDEE0 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		76324986172C4DBEF269D292 /* Pods-AutoEncodeDecode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoEncodeDecode.release.xcconfig"; sourceTree = "<group>"; };
+		767678AC95276E572DB9E6C4 /* Pods-AutoEncodeDecode-ClassProperty.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoEncodeDecode-ClassProperty.xcconfig"; sourceTree = "<group>"; };
+		782C190474F33CE804160DCA /* Pods-AutoEncodeDecode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoEncodeDecode.debug.xcconfig"; sourceTree = "<group>"; };
+		7D0D1ACAF65D69FB14F01FFE /* Pods-Tests-AutoEncodeDecode-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-AutoEncodeDecode-Private.xcconfig"; path = "../Pods-Tests-AutoEncodeDecode/Pods-Tests-AutoEncodeDecode-Private.xcconfig"; sourceTree = "<group>"; };
+		7ED234656F5079F0E59CCD44 /* BaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		91971589A0B54F5A54002FD8 /* ClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClassProperty.m; path = Pod/Classes/ClassProperty.m; sourceTree = "<group>"; };
+		95F092DCA5AAF8B9D8D4D166 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		96FF5360A66BA0C56AD18266 /* Pods-Tests-ClassProperty-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-ClassProperty-prefix.pch"; path = "../Pods-Tests-ClassProperty/Pods-Tests-ClassProperty-prefix.pch"; sourceTree = "<group>"; };
+		A23B1B35D794837EDC559A2F /* ClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClassProperty.h; path = Pod/Classes/ClassProperty.h; sourceTree = "<group>"; };
+		A45DD6F16D145B6C0C7A98FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A78F1B1551FB419CAB23EA06 /* libPods-AutoEncodeDecode-ClassProperty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoEncodeDecode-ClassProperty.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80577DD082B78015DBC958A /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A849D28CB61DE940EC6F3223 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9262A048DCA62AD347677BF /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		ABFF6DFDD2D04CA10735F1B8 /* NSObject+NSCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSCoding.m"; sourceTree = "<group>"; };
+		B4A6A9B35FF64468ACE1AD73 /* Pods-AutoEncodeDecode-ClassProperty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoEncodeDecode-ClassProperty-dummy.m"; sourceTree = "<group>"; };
+		BA3078945EFED8274C0CBA9D /* Pods-AutoEncodeDecode-AutoEncodeDecode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoEncodeDecode-AutoEncodeDecode-dummy.m"; sourceTree = "<group>"; };
+		BAB773490195632A204D832C /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C60BADA674AE7B45D4753070 /* Pods-Tests-ClassProperty.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-ClassProperty.xcconfig"; path = "../Pods-Tests-ClassProperty/Pods-Tests-ClassProperty.xcconfig"; sourceTree = "<group>"; };
+		C70BA01A14B76A0D6C2DB60D /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7CDF2686CF0C8340B35FF7A /* libPods-Tests-ClassProperty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-ClassProperty.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D453715250283C713BF5E92B /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D8282F4F59D9ADB26F4E70B9 /* BaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		DDE2364F60B9E61C8D228E3C /* Pods-AutoEncodeDecode-AutoEncodeDecode-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoEncodeDecode-AutoEncodeDecode-Private.xcconfig"; sourceTree = "<group>"; };
+		E34D25C6D6F98ED7211CD915 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		E7BB30BB371248B39224AFAF /* Pods-AutoEncodeDecode-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoEncodeDecode-resources.sh"; sourceTree = "<group>"; };
+		EAFC45955ACE4193B4D21637 /* Pods-AutoEncodeDecode-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoEncodeDecode-environment.h"; sourceTree = "<group>"; };
+		FDA315E61AE2199FF8E8CBBB /* Pods-Tests-AutoEncodeDecode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-AutoEncodeDecode-prefix.pch"; path = "../Pods-Tests-AutoEncodeDecode/Pods-Tests-AutoEncodeDecode-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B144130CE5D82C74C7F4048 /* Frameworks */ = {
+		64F0F8302F39235878B23CC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB9D28B2781FD233DFA1EB14 /* Foundation.framework in Frameworks */,
+				881628C75D723F6864A4366E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DB65B08D62DB2F10C6BE326 /* Frameworks */ = {
+		826D350B1B97079BE42C3AC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295A0568C0267CAA8087893A /* Foundation.framework in Frameworks */,
+				A67671B96F004CAD65017AAA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BC1A8FC064B0A588893C3EC /* Frameworks */ = {
+		88B276FA139051DF91D96893 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A7814A2FF7041D23FCD9DBC /* Foundation.framework in Frameworks */,
+				6A059F372FF719BFD97E68AA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1749A605B88C462E05D5442 /* Frameworks */ = {
+		A196F3B48B1B4C36550F4C7B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06C726C3BC61498393BDF6D7 /* Foundation.framework in Frameworks */,
+				A29408490295215735ABA4AD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8A2EFF6741B6BC8CCC82F84 /* Frameworks */ = {
+		B1BB804385ED42001B7545B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B517601FC7A8AA1990F4DB0 /* Foundation.framework in Frameworks */,
+				23CC774A58D30BFD1C475F09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E8B5883DBD9F94D77E3DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC789CC0490FB81F7E85D09 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B8514B5EF5D87CF4EA0A862 = {
+		0554F9DA6BA5E01FF0217D8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ECB6E9235F3CEC7B8D6412DD /* Podfile */,
-				BADD00BF187491384749C93C /* Development Pods */,
-				62A7CF13C9661B44FCEAAA3A /* Frameworks */,
-				DCC72A6DD506AC16EAE82112 /* Pods */,
-				BB56E2B9B33AF69286D95172 /* Products */,
-				DB816576BCAEB959FB28C8AD /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		286B041AFAA119F960ECA747 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				09E650FF0E55CD6DF5E53D14 /* BaseModel.h */,
-				5E17658643CB64D0A0EBFBB3 /* BaseModel.m */,
-				DDC301385C193DFF9E3FA2EC /* NSObject+NSCoding.h */,
-				96CE74A79AA330820BD3F708 /* NSObject+NSCoding.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		2E75012D0418D4F1AC205E2D /* Pods-AutoEncodeDecode */ = {
-			isa = PBXGroup;
-			children = (
-				63EA3B38D15178DD733962D1 /* Pods-AutoEncodeDecode-acknowledgements.markdown */,
-				236BAA3827DE8D1E0622E908 /* Pods-AutoEncodeDecode-acknowledgements.plist */,
-				AF1C2AAAA037D198134E430A /* Pods-AutoEncodeDecode-dummy.m */,
-				0D30CCC5DA2847D9E26A6851 /* Pods-AutoEncodeDecode-environment.h */,
-				BB386D97137D405DC8E665B5 /* Pods-AutoEncodeDecode-resources.sh */,
-				4B45C269D24CC7111E60CE73 /* Pods-AutoEncodeDecode.debug.xcconfig */,
-				BCF27E18D516472ABA5B2E16 /* Pods-AutoEncodeDecode.release.xcconfig */,
-			);
-			name = "Pods-AutoEncodeDecode";
-			path = "Target Support Files/Pods-AutoEncodeDecode";
-			sourceTree = "<group>";
-		};
-		351F05777B8FF2F192D3CED0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D8421934EDD255FBE6A15444 /* Pods-AutoEncodeDecode-ClassProperty.xcconfig */,
-				E7D7ADA19B89D627EE005B27 /* Pods-AutoEncodeDecode-ClassProperty-Private.xcconfig */,
-				FAE9AA4E27902C0E6706C88B /* Pods-AutoEncodeDecode-ClassProperty-dummy.m */,
-				64B4CA3354829E5AE427A8E5 /* Pods-AutoEncodeDecode-ClassProperty-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-AutoEncodeDecode-ClassProperty";
-			sourceTree = "<group>";
-		};
-		4E4B9EB753B34AA6C1E6CD2E /* AutoEncodeDecode */ = {
-			isa = PBXGroup;
-			children = (
-				654F4394B31DF1FE094D05C7 /* Pod */,
-				D1BAD10F682672458C736D22 /* Support Files */,
-			);
-			name = AutoEncodeDecode;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		62A7CF13C9661B44FCEAAA3A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F571A6416B2455B1058B5356 /* iOS */,
+				5722A7741AAAAACF74AFC745 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		654F4394B31DF1FE094D05C7 /* Pod */ = {
+		0F3F61E5D594FA74EB502275 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				286B041AFAA119F960ECA747 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		68A62F4367C4655922452F5C /* Pods-Tests */ = {
-			isa = PBXGroup;
-			children = (
-				5EFE56676133DDDD52A1C041 /* Pods-Tests-acknowledgements.markdown */,
-				EF7EE049F530DEAA11BDAD8B /* Pods-Tests-acknowledgements.plist */,
-				05C03C7463614D882C208953 /* Pods-Tests-dummy.m */,
-				4A24531275E205E45A6DED6F /* Pods-Tests-environment.h */,
-				41C3BB600612F243DECE72BF /* Pods-Tests-resources.sh */,
-				AFE1A230D47BC68A43BABEF8 /* Pods-Tests.debug.xcconfig */,
-				019F1794EC44D4A57C8278AA /* Pods-Tests.release.xcconfig */,
-			);
-			name = "Pods-Tests";
-			path = "Target Support Files/Pods-Tests";
-			sourceTree = "<group>";
-		};
-		B68B75D0B5CDBC5B27CB29E3 /* ClassProperty */ = {
-			isa = PBXGroup;
-			children = (
-				3F5D789F9AC1D1BD336D994B /* ClassProperty.h */,
-				434F32F9A44BA3C0F02C284A /* ClassProperty.m */,
-				351F05777B8FF2F192D3CED0 /* Support Files */,
-			);
-			path = ClassProperty;
-			sourceTree = "<group>";
-		};
-		BADD00BF187491384749C93C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4E4B9EB753B34AA6C1E6CD2E /* AutoEncodeDecode */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BB56E2B9B33AF69286D95172 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DEF13966986BD4D5213EF52D /* libPods-AutoEncodeDecode.a */,
-				7BDF7C56F388286397DC1CD1 /* libPods-AutoEncodeDecode-AutoEncodeDecode.a */,
-				11214FAE926B889237E60080 /* libPods-AutoEncodeDecode-ClassProperty.a */,
-				2719B67B2A52057551533BF6 /* libPods-Tests.a */,
-				469DC9195E63B00439EE187C /* libPods-Tests-AutoEncodeDecode.a */,
+				05EE019E17E6D96755AE25A0 /* libPods-AutoEncodeDecode.a */,
+				5ABE257CE48D963CE27CD47E /* libPods-AutoEncodeDecode-AutoEncodeDecode.a */,
+				A78F1B1551FB419CAB23EA06 /* libPods-AutoEncodeDecode-ClassProperty.a */,
+				A849D28CB61DE940EC6F3223 /* libPods-Tests.a */,
+				0B962B3F92E6606582612EC5 /* libPods-Tests-AutoEncodeDecode.a */,
+				C7CDF2686CF0C8340B35FF7A /* libPods-Tests-ClassProperty.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D1BAD10F682672458C736D22 /* Support Files */ = {
+		29BF2470110B33F423262B28 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D129BAA2AD734E4EC818DD73 /* Pods-AutoEncodeDecode-AutoEncodeDecode.xcconfig */,
-				AF6A72D52F2E2F95112723E9 /* Pods-AutoEncodeDecode-AutoEncodeDecode-Private.xcconfig */,
-				FAE04BF4B32791C6D2329145 /* Pods-AutoEncodeDecode-AutoEncodeDecode-dummy.m */,
-				5C653441ECB4660E9D5FBD3E /* Pods-AutoEncodeDecode-AutoEncodeDecode-prefix.pch */,
-				2042A88A0A89B0FC0F461AAB /* Pods-Tests-AutoEncodeDecode.xcconfig */,
-				81E89F2846A97A21067E8327 /* Pods-Tests-AutoEncodeDecode-Private.xcconfig */,
-				1055604E5076BF590102B635 /* Pods-Tests-AutoEncodeDecode-dummy.m */,
-				43DBCE02B220AB83D4ABD018 /* Pods-Tests-AutoEncodeDecode-prefix.pch */,
+				D8282F4F59D9ADB26F4E70B9 /* BaseModel.h */,
+				7ED234656F5079F0E59CCD44 /* BaseModel.m */,
+				0CA9FD7F365867057D039F32 /* NSObject+NSCoding.h */,
+				ABFF6DFDD2D04CA10735F1B8 /* NSObject+NSCoding.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		383BD6C6FDAC29661EB3ED5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68C6106B31670E20345808CA /* ClassProperty */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4359CC869C16CBF1BFCEDE4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45419CDB7834D51E9A0CEB5F /* Pods-AutoEncodeDecode-AutoEncodeDecode.xcconfig */,
+				DDE2364F60B9E61C8D228E3C /* Pods-AutoEncodeDecode-AutoEncodeDecode-Private.xcconfig */,
+				BA3078945EFED8274C0CBA9D /* Pods-AutoEncodeDecode-AutoEncodeDecode-dummy.m */,
+				4FC86613C7551028687A5871 /* Pods-AutoEncodeDecode-AutoEncodeDecode-prefix.pch */,
+				150B212C51C68D36C2E4BC45 /* Pods-Tests-AutoEncodeDecode.xcconfig */,
+				7D0D1ACAF65D69FB14F01FFE /* Pods-Tests-AutoEncodeDecode-Private.xcconfig */,
+				3563EC2198ADF9C2C869FED2 /* Pods-Tests-AutoEncodeDecode-dummy.m */,
+				FDA315E61AE2199FF8E8CBBB /* Pods-Tests-AutoEncodeDecode-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Pods-AutoEncodeDecode-AutoEncodeDecode";
 			sourceTree = "<group>";
 		};
-		DB816576BCAEB959FB28C8AD /* Targets Support Files */ = {
+		5722A7741AAAAACF74AFC745 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2E75012D0418D4F1AC205E2D /* Pods-AutoEncodeDecode */,
-				68A62F4367C4655922452F5C /* Pods-Tests */,
+				A45DD6F16D145B6C0C7A98FD /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6150CE399D14713423C38B48 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBB5E81889A0AC6C28870D94 /* AutoEncodeDecode */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		68C6106B31670E20345808CA /* ClassProperty */ = {
+			isa = PBXGroup;
+			children = (
+				A23B1B35D794837EDC559A2F /* ClassProperty.h */,
+				91971589A0B54F5A54002FD8 /* ClassProperty.m */,
+				C1E539129C3C6E77B451AEB8 /* Support Files */,
+			);
+			path = ClassProperty;
+			sourceTree = "<group>";
+		};
+		7B127852676F1A1C3300E5E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0C5D4F217EE56601D5C604C /* Pods-AutoEncodeDecode */,
+				C87358030D821D5D849B4608 /* Pods-Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DCC72A6DD506AC16EAE82112 /* Pods */ = {
+		8326B055D7D90E00A6478EAF = {
 			isa = PBXGroup;
 			children = (
-				B68B75D0B5CDBC5B27CB29E3 /* ClassProperty */,
+				D453715250283C713BF5E92B /* Podfile */,
+				6150CE399D14713423C38B48 /* Development Pods */,
+				0554F9DA6BA5E01FF0217D8C /* Frameworks */,
+				383BD6C6FDAC29661EB3ED5B /* Pods */,
+				0F3F61E5D594FA74EB502275 /* Products */,
+				7B127852676F1A1C3300E5E1 /* Targets Support Files */,
 			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
-		F571A6416B2455B1058B5356 /* iOS */ = {
+		AD3D482AE450E1B43C4304AC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CBD326267943D96577BB0AD4 /* Foundation.framework */,
+				29BF2470110B33F423262B28 /* Classes */,
 			);
-			name = iOS;
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		B0C5D4F217EE56601D5C604C /* Pods-AutoEncodeDecode */ = {
+			isa = PBXGroup;
+			children = (
+				418A5C1FBA6D517C55BDFCA4 /* Pods-AutoEncodeDecode-acknowledgements.markdown */,
+				1AB385DF6E7D7524862A9CB6 /* Pods-AutoEncodeDecode-acknowledgements.plist */,
+				0FF99C0599B096B10F417256 /* Pods-AutoEncodeDecode-dummy.m */,
+				EAFC45955ACE4193B4D21637 /* Pods-AutoEncodeDecode-environment.h */,
+				E7BB30BB371248B39224AFAF /* Pods-AutoEncodeDecode-resources.sh */,
+				782C190474F33CE804160DCA /* Pods-AutoEncodeDecode.debug.xcconfig */,
+				76324986172C4DBEF269D292 /* Pods-AutoEncodeDecode.release.xcconfig */,
+			);
+			name = "Pods-AutoEncodeDecode";
+			path = "Target Support Files/Pods-AutoEncodeDecode";
+			sourceTree = "<group>";
+		};
+		BBB5E81889A0AC6C28870D94 /* AutoEncodeDecode */ = {
+			isa = PBXGroup;
+			children = (
+				AD3D482AE450E1B43C4304AC /* Pod */,
+				4359CC869C16CBF1BFCEDE4F /* Support Files */,
+			);
+			name = AutoEncodeDecode;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C1E539129C3C6E77B451AEB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				767678AC95276E572DB9E6C4 /* Pods-AutoEncodeDecode-ClassProperty.xcconfig */,
+				3C4041C7A6BB3C9136760922 /* Pods-AutoEncodeDecode-ClassProperty-Private.xcconfig */,
+				B4A6A9B35FF64468ACE1AD73 /* Pods-AutoEncodeDecode-ClassProperty-dummy.m */,
+				53C3359D555B05BB47BCFCEB /* Pods-AutoEncodeDecode-ClassProperty-prefix.pch */,
+				C60BADA674AE7B45D4753070 /* Pods-Tests-ClassProperty.xcconfig */,
+				64B6927AB41DF319BACAC190 /* Pods-Tests-ClassProperty-Private.xcconfig */,
+				2257A8A228B90CB67AD02103 /* Pods-Tests-ClassProperty-dummy.m */,
+				96FF5360A66BA0C56AD18266 /* Pods-Tests-ClassProperty-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AutoEncodeDecode-ClassProperty";
+			sourceTree = "<group>";
+		};
+		C87358030D821D5D849B4608 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C70BA01A14B76A0D6C2DB60D /* Pods-Tests-acknowledgements.markdown */,
+				A80577DD082B78015DBC958A /* Pods-Tests-acknowledgements.plist */,
+				A9262A048DCA62AD347677BF /* Pods-Tests-dummy.m */,
+				6EF1C22ABD1EDB7CB5BEDEE0 /* Pods-Tests-environment.h */,
+				E34D25C6D6F98ED7211CD915 /* Pods-Tests-resources.sh */,
+				BAB773490195632A204D832C /* Pods-Tests.debug.xcconfig */,
+				95F092DCA5AAF8B9D8D4D166 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		71BC07B671411CC7823479A9 /* Headers */ = {
+		2D0BAD51D56DA6285979DCEB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E2BC641A0C32873FC919EBD /* BaseModel.h in Headers */,
-				DAA311A1C3BDE10045093D84 /* NSObject+NSCoding.h in Headers */,
+				4F190AC66DE32AE0A5A97A79 /* ClassProperty.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4475D0918A5F5DEBD0A41B8 /* Headers */ = {
+		AF5A294D26C62C1938DB2BCB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7E9CDE0FCB6C03CB745BFE6 /* BaseModel.h in Headers */,
-				7613CE60AB26C5EDF74446A0 /* NSObject+NSCoding.h in Headers */,
+				C8C85E6EB5B0690E2E2D4A6E /* BaseModel.h in Headers */,
+				958FE7CE96C0C2B26CB52142 /* NSObject+NSCoding.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA6E5D312E5008117CFF1805 /* Headers */ = {
+		D2DA36B7289C0955D244FEDA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB8F43DB55DDE863665ED7F5 /* ClassProperty.h in Headers */,
+				C4E08229428550445F0DF47F /* BaseModel.h in Headers */,
+				4928AE12532C7680E4A315AB /* NSObject+NSCoding.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F058D018B7FE397DC6F54634 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F641D5589F677099CB03D6 /* ClassProperty.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		35541E4F663F0BCB625E2B26 /* Pods-AutoEncodeDecode-ClassProperty */ = {
+		04948CD022484DB89E876402 /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7018CA4827BBA852963A6FFE /* Build configuration list for PBXNativeTarget "Pods-AutoEncodeDecode-ClassProperty" */;
+			buildConfigurationList = B7C5EDDA2AB280D59E87BFBD /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				1264DB31D4D06DA1CCCA78F1 /* Sources */,
-				7BC1A8FC064B0A588893C3EC /* Frameworks */,
-				BA6E5D312E5008117CFF1805 /* Headers */,
+				E898E11D9B41DB36C4E2D9B6 /* Sources */,
+				B1BB804385ED42001B7545B1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10DFF7D6FE313F6313566C92 /* PBXTargetDependency */,
+				973BF92C39C148B1E68CC1C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = A849D28CB61DE940EC6F3223 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		23299C09324B5DCD784E2D4B /* Pods-AutoEncodeDecode-ClassProperty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C86E1030654BF8A9853A5D7 /* Build configuration list for PBXNativeTarget "Pods-AutoEncodeDecode-ClassProperty" */;
+			buildPhases = (
+				FD35843940C448BA34E48DE1 /* Sources */,
+				64F0F8302F39235878B23CC0 /* Frameworks */,
+				2D0BAD51D56DA6285979DCEB /* Headers */,
 			);
 			buildRules = (
 			);
@@ -347,180 +416,210 @@
 			);
 			name = "Pods-AutoEncodeDecode-ClassProperty";
 			productName = "Pods-AutoEncodeDecode-ClassProperty";
-			productReference = 11214FAE926B889237E60080 /* libPods-AutoEncodeDecode-ClassProperty.a */;
+			productReference = A78F1B1551FB419CAB23EA06 /* libPods-AutoEncodeDecode-ClassProperty.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		3E91A87F6C44A28A166DAE9A /* Pods-AutoEncodeDecode */ = {
+		241116D6491CD1255454FDF0 /* Pods-AutoEncodeDecode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8C8255C2CEEB1FD393CA172 /* Build configuration list for PBXNativeTarget "Pods-AutoEncodeDecode" */;
+			buildConfigurationList = DFBC6D57E44060FD1CC23BE8 /* Build configuration list for PBXNativeTarget "Pods-AutoEncodeDecode" */;
 			buildPhases = (
-				AC62A34CBEBA4D1EAA020A43 /* Sources */,
-				F8A2EFF6741B6BC8CCC82F84 /* Frameworks */,
+				2774CFDAD63358F1B59B4453 /* Sources */,
+				88B276FA139051DF91D96893 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CCDDB66A5482037893506ED2 /* PBXTargetDependency */,
-				A0C71EBC4927D3333FA23C1D /* PBXTargetDependency */,
+				B627BC0979B721193E72649C /* PBXTargetDependency */,
+				392212F4D6E356E3AD6B3CE9 /* PBXTargetDependency */,
 			);
 			name = "Pods-AutoEncodeDecode";
 			productName = "Pods-AutoEncodeDecode";
-			productReference = DEF13966986BD4D5213EF52D /* libPods-AutoEncodeDecode.a */;
+			productReference = 05EE019E17E6D96755AE25A0 /* libPods-AutoEncodeDecode.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		46282023B578D276ED51542B /* Pods-Tests-AutoEncodeDecode */ = {
+		5E1AC119957222CB46028E19 /* Pods-AutoEncodeDecode-AutoEncodeDecode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3028A03CDC75D8E8BCCD04BA /* Build configuration list for PBXNativeTarget "Pods-Tests-AutoEncodeDecode" */;
+			buildConfigurationList = 16B3A3AFAE873BBF9262067D /* Build configuration list for PBXNativeTarget "Pods-AutoEncodeDecode-AutoEncodeDecode" */;
 			buildPhases = (
-				D0AF1613A7C505B81B157D9F /* Sources */,
-				5B144130CE5D82C74C7F4048 /* Frameworks */,
-				B4475D0918A5F5DEBD0A41B8 /* Headers */,
+				B3CFCA315740084688584B0F /* Sources */,
+				B1E8B5883DBD9F94D77E3DFF /* Frameworks */,
+				D2DA36B7289C0955D244FEDA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-Tests-AutoEncodeDecode";
-			productName = "Pods-Tests-AutoEncodeDecode";
-			productReference = 469DC9195E63B00439EE187C /* libPods-Tests-AutoEncodeDecode.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		66A068454011726E3246AFB6 /* Pods-AutoEncodeDecode-AutoEncodeDecode */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E317EC2E86A36C818206AD4 /* Build configuration list for PBXNativeTarget "Pods-AutoEncodeDecode-AutoEncodeDecode" */;
-			buildPhases = (
-				75D0CEB6C83FA7CB110DC921 /* Sources */,
-				E1749A605B88C462E05D5442 /* Frameworks */,
-				71BC07B671411CC7823479A9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				649E3FE2CE031B36474F14C3 /* PBXTargetDependency */,
 			);
 			name = "Pods-AutoEncodeDecode-AutoEncodeDecode";
 			productName = "Pods-AutoEncodeDecode-AutoEncodeDecode";
-			productReference = 7BDF7C56F388286397DC1CD1 /* libPods-AutoEncodeDecode-AutoEncodeDecode.a */;
+			productReference = 5ABE257CE48D963CE27CD47E /* libPods-AutoEncodeDecode-AutoEncodeDecode.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D77F170D41F944E239E490A5 /* Pods-Tests */ = {
+		E7967059DB2E30CB30F30C81 /* Pods-Tests-AutoEncodeDecode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7808680B9E1B99A41927C3F /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildConfigurationList = 48DCF286606664A89FB43294 /* Build configuration list for PBXNativeTarget "Pods-Tests-AutoEncodeDecode" */;
 			buildPhases = (
-				490308E79F7B0E27BB4B3265 /* Sources */,
-				5DB65B08D62DB2F10C6BE326 /* Frameworks */,
+				8344FAF5EE41C3665752B170 /* Sources */,
+				A196F3B48B1B4C36550F4C7B /* Frameworks */,
+				AF5A294D26C62C1938DB2BCB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BC4BAEE6A2207E85648CD276 /* PBXTargetDependency */,
+				6EFF31EAAAB4EEDC9291A257 /* PBXTargetDependency */,
 			);
-			name = "Pods-Tests";
-			productName = "Pods-Tests";
-			productReference = 2719B67B2A52057551533BF6 /* libPods-Tests.a */;
+			name = "Pods-Tests-AutoEncodeDecode";
+			productName = "Pods-Tests-AutoEncodeDecode";
+			productReference = 0B962B3F92E6606582612EC5 /* libPods-Tests-AutoEncodeDecode.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FD68FE713F97FFF379C6104A /* Pods-Tests-ClassProperty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F360FDE417FC420C0A611808 /* Build configuration list for PBXNativeTarget "Pods-Tests-ClassProperty" */;
+			buildPhases = (
+				3D9E5381C69CDEC36D3E4E60 /* Sources */,
+				826D350B1B97079BE42C3AC6 /* Frameworks */,
+				F058D018B7FE397DC6F54634 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-ClassProperty";
+			productName = "Pods-Tests-ClassProperty";
+			productReference = C7CDF2686CF0C8340B35FF7A /* libPods-Tests-ClassProperty.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		62CC8F257A213D394238FE8D /* Project object */ = {
+		415C73995AC8773F99FBEBDF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 1C24A4F3AF5EA9B86A554902 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2A15636CBEC52EC6145025FD /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1B8514B5EF5D87CF4EA0A862;
-			productRefGroup = BB56E2B9B33AF69286D95172 /* Products */;
+			mainGroup = 8326B055D7D90E00A6478EAF;
+			productRefGroup = 0F3F61E5D594FA74EB502275 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E91A87F6C44A28A166DAE9A /* Pods-AutoEncodeDecode */,
-				66A068454011726E3246AFB6 /* Pods-AutoEncodeDecode-AutoEncodeDecode */,
-				35541E4F663F0BCB625E2B26 /* Pods-AutoEncodeDecode-ClassProperty */,
-				D77F170D41F944E239E490A5 /* Pods-Tests */,
-				46282023B578D276ED51542B /* Pods-Tests-AutoEncodeDecode */,
+				241116D6491CD1255454FDF0 /* Pods-AutoEncodeDecode */,
+				5E1AC119957222CB46028E19 /* Pods-AutoEncodeDecode-AutoEncodeDecode */,
+				23299C09324B5DCD784E2D4B /* Pods-AutoEncodeDecode-ClassProperty */,
+				04948CD022484DB89E876402 /* Pods-Tests */,
+				E7967059DB2E30CB30F30C81 /* Pods-Tests-AutoEncodeDecode */,
+				FD68FE713F97FFF379C6104A /* Pods-Tests-ClassProperty */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1264DB31D4D06DA1CCCA78F1 /* Sources */ = {
+		2774CFDAD63358F1B59B4453 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E90CF026E7EC6A40E9F2AF2 /* ClassProperty.m in Sources */,
-				F8166314181E725B39998819 /* Pods-AutoEncodeDecode-ClassProperty-dummy.m in Sources */,
+				8996FEC1E36EE7975550F404 /* Pods-AutoEncodeDecode-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		490308E79F7B0E27BB4B3265 /* Sources */ = {
+		3D9E5381C69CDEC36D3E4E60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBEA934C78E9DA5716D056F7 /* Pods-Tests-dummy.m in Sources */,
+				F3431FAF742439A83D075A00 /* ClassProperty.m in Sources */,
+				2B0F6DFE46FC6B95E48C8B25 /* Pods-Tests-ClassProperty-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75D0CEB6C83FA7CB110DC921 /* Sources */ = {
+		8344FAF5EE41C3665752B170 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E59405BDCEF787C14708F073 /* BaseModel.m in Sources */,
-				9BD41BF70BAA2AB820B6548D /* NSObject+NSCoding.m in Sources */,
-				F60DC95C1991CDB0F5D0DAAA /* Pods-AutoEncodeDecode-AutoEncodeDecode-dummy.m in Sources */,
+				2116717B9F14AB4167257586 /* BaseModel.m in Sources */,
+				FE34B08C8D974EB1185A478B /* NSObject+NSCoding.m in Sources */,
+				A53B1886D46028A75E6731B6 /* Pods-Tests-AutoEncodeDecode-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC62A34CBEBA4D1EAA020A43 /* Sources */ = {
+		B3CFCA315740084688584B0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A913E9C14542A2FB536F34D /* Pods-AutoEncodeDecode-dummy.m in Sources */,
+				89C313680868F053F3EEE6A6 /* BaseModel.m in Sources */,
+				20E13B8B6FDDF832011D1E26 /* NSObject+NSCoding.m in Sources */,
+				307D66A8310E763C1C408BB4 /* Pods-AutoEncodeDecode-AutoEncodeDecode-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0AF1613A7C505B81B157D9F /* Sources */ = {
+		E898E11D9B41DB36C4E2D9B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BD0EA6418092A7B720073A2 /* BaseModel.m in Sources */,
-				BC07C3A46DF6A5D4FA0C3D21 /* NSObject+NSCoding.m in Sources */,
-				DD2019FC7EED10332389AE42 /* Pods-Tests-AutoEncodeDecode-dummy.m in Sources */,
+				641F869440477A5B14013B31 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD35843940C448BA34E48DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F00B2F9884C716F532DDFF /* ClassProperty.m in Sources */,
+				2747316D638FE11A64CBFA08 /* Pods-AutoEncodeDecode-ClassProperty-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A0C71EBC4927D3333FA23C1D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-AutoEncodeDecode-ClassProperty";
-			target = 35541E4F663F0BCB625E2B26 /* Pods-AutoEncodeDecode-ClassProperty */;
-			targetProxy = 8F5443CDC51E423AFE6AAB61 /* PBXContainerItemProxy */;
-		};
-		BC4BAEE6A2207E85648CD276 /* PBXTargetDependency */ = {
+		10DFF7D6FE313F6313566C92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Tests-AutoEncodeDecode";
-			target = 46282023B578D276ED51542B /* Pods-Tests-AutoEncodeDecode */;
-			targetProxy = C9E8356A18693F60EE0D0FBD /* PBXContainerItemProxy */;
+			target = E7967059DB2E30CB30F30C81 /* Pods-Tests-AutoEncodeDecode */;
+			targetProxy = 586D0AD627DE2C5F26AA8D64 /* PBXContainerItemProxy */;
 		};
-		CCDDB66A5482037893506ED2 /* PBXTargetDependency */ = {
+		392212F4D6E356E3AD6B3CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AutoEncodeDecode-ClassProperty";
+			target = 23299C09324B5DCD784E2D4B /* Pods-AutoEncodeDecode-ClassProperty */;
+			targetProxy = 9B8B37BC23EB02054E89BD23 /* PBXContainerItemProxy */;
+		};
+		649E3FE2CE031B36474F14C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AutoEncodeDecode-ClassProperty";
+			target = 23299C09324B5DCD784E2D4B /* Pods-AutoEncodeDecode-ClassProperty */;
+			targetProxy = 7D1B49D2BBA146F1AC920187 /* PBXContainerItemProxy */;
+		};
+		6EFF31EAAAB4EEDC9291A257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-ClassProperty";
+			target = FD68FE713F97FFF379C6104A /* Pods-Tests-ClassProperty */;
+			targetProxy = 040CFC13E53A865DABE37C24 /* PBXContainerItemProxy */;
+		};
+		973BF92C39C148B1E68CC1C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-ClassProperty";
+			target = FD68FE713F97FFF379C6104A /* Pods-Tests-ClassProperty */;
+			targetProxy = 0E4C08A28AB1DF0AECFD882E /* PBXContainerItemProxy */;
+		};
+		B627BC0979B721193E72649C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AutoEncodeDecode-AutoEncodeDecode";
-			target = 66A068454011726E3246AFB6 /* Pods-AutoEncodeDecode-AutoEncodeDecode */;
-			targetProxy = 3A7AB6621FDF0292DD190813 /* PBXContainerItemProxy */;
+			target = 5E1AC119957222CB46028E19 /* Pods-AutoEncodeDecode-AutoEncodeDecode */;
+			targetProxy = C189CD9F30D3D561031F155C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2095296FE609C906E468ABA9 /* Debug */ = {
+		0F0CE4E08779E6E524C84F67 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B45C269D24CC7111E60CE73 /* Pods-AutoEncodeDecode.debug.xcconfig */;
+			baseConfigurationReference = 782C190474F33CE804160DCA /* Pods-AutoEncodeDecode.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -534,185 +633,7 @@
 			};
 			name = Debug;
 		};
-		5224586F217610084DDF8F8E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCF27E18D516472ABA5B2E16 /* Pods-AutoEncodeDecode.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		5B816C388B1F30DE5FEAF930 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81E89F2846A97A21067E8327 /* Pods-Tests-AutoEncodeDecode-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-AutoEncodeDecode/Pods-Tests-AutoEncodeDecode-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		6321A1BF6682D1F9D5ED060E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81E89F2846A97A21067E8327 /* Pods-Tests-AutoEncodeDecode-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-AutoEncodeDecode/Pods-Tests-AutoEncodeDecode-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7A9D0037EA5D2650A86079ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF6A72D52F2E2F95112723E9 /* Pods-AutoEncodeDecode-AutoEncodeDecode-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AutoEncodeDecode-AutoEncodeDecode/Pods-AutoEncodeDecode-AutoEncodeDecode-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		A1F35B2CD1005BE94F632336 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A37C77690A75343B65A317F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7D7ADA19B89D627EE005B27 /* Pods-AutoEncodeDecode-ClassProperty-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AutoEncodeDecode-ClassProperty/Pods-AutoEncodeDecode-ClassProperty-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		AF21FCB5D6813684A94E4AA0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7D7ADA19B89D627EE005B27 /* Pods-AutoEncodeDecode-ClassProperty-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AutoEncodeDecode-ClassProperty/Pods-AutoEncodeDecode-ClassProperty-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		D702FC7BF8690ACDDB955321 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF6A72D52F2E2F95112723E9 /* Pods-AutoEncodeDecode-AutoEncodeDecode-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AutoEncodeDecode-AutoEncodeDecode/Pods-AutoEncodeDecode-AutoEncodeDecode-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		DF24B8C6CD35833FB0D2DA61 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 019F1794EC44D4A57C8278AA /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		EFBC96005C669FABC6A7365E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFE1A230D47BC68A43BABEF8 /* Pods-Tests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		F6BBC5B28DCC1E80F7C4E449 /* Debug */ = {
+		1315C12B6478EA4755F775F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -751,64 +672,283 @@
 			};
 			name = Debug;
 		};
+		15BCEF9990BC5C4C35C2CEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0D1ACAF65D69FB14F01FFE /* Pods-Tests-AutoEncodeDecode-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-AutoEncodeDecode/Pods-Tests-AutoEncodeDecode-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		200B07FFF13454FD8E09FC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B6927AB41DF319BACAC190 /* Pods-Tests-ClassProperty-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-ClassProperty/Pods-Tests-ClassProperty-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		412356EA28A5B4B0ACBA5EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAB773490195632A204D832C /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		41B5A6690BA635034CD66307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76324986172C4DBEF269D292 /* Pods-AutoEncodeDecode.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		62504D4B71F001876AB42BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE2364F60B9E61C8D228E3C /* Pods-AutoEncodeDecode-AutoEncodeDecode-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AutoEncodeDecode-AutoEncodeDecode/Pods-AutoEncodeDecode-AutoEncodeDecode-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6862210B105714F3C41AB594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B6927AB41DF319BACAC190 /* Pods-Tests-ClassProperty-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-ClassProperty/Pods-Tests-ClassProperty-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		74F58BAE2FC9BB264358D625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E2D39412F933E268DE89780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0D1ACAF65D69FB14F01FFE /* Pods-Tests-AutoEncodeDecode-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-AutoEncodeDecode/Pods-Tests-AutoEncodeDecode-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A9A8E622835E10AADD949126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4041C7A6BB3C9136760922 /* Pods-AutoEncodeDecode-ClassProperty-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AutoEncodeDecode-ClassProperty/Pods-AutoEncodeDecode-ClassProperty-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BF982B2E026691D5A753B1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE2364F60B9E61C8D228E3C /* Pods-AutoEncodeDecode-AutoEncodeDecode-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AutoEncodeDecode-AutoEncodeDecode/Pods-AutoEncodeDecode-AutoEncodeDecode-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C65B31114BB4876C0C4F8416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4041C7A6BB3C9136760922 /* Pods-AutoEncodeDecode-ClassProperty-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AutoEncodeDecode-ClassProperty/Pods-AutoEncodeDecode-ClassProperty-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E302853509FF187A1CC84A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F092DCA5AAF8B9D8D4D166 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C24A4F3AF5EA9B86A554902 /* Build configuration list for PBXProject "Pods" */ = {
+		16B3A3AFAE873BBF9262067D /* Build configuration list for PBXNativeTarget "Pods-AutoEncodeDecode-AutoEncodeDecode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6BBC5B28DCC1E80F7C4E449 /* Debug */,
-				A1F35B2CD1005BE94F632336 /* Release */,
+				BF982B2E026691D5A753B1B3 /* Debug */,
+				62504D4B71F001876AB42BA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3028A03CDC75D8E8BCCD04BA /* Build configuration list for PBXNativeTarget "Pods-Tests-AutoEncodeDecode" */ = {
+		2A15636CBEC52EC6145025FD /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B816C388B1F30DE5FEAF930 /* Debug */,
-				6321A1BF6682D1F9D5ED060E /* Release */,
+				1315C12B6478EA4755F775F8 /* Debug */,
+				74F58BAE2FC9BB264358D625 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E317EC2E86A36C818206AD4 /* Build configuration list for PBXNativeTarget "Pods-AutoEncodeDecode-AutoEncodeDecode" */ = {
+		2C86E1030654BF8A9853A5D7 /* Build configuration list for PBXNativeTarget "Pods-AutoEncodeDecode-ClassProperty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D702FC7BF8690ACDDB955321 /* Debug */,
-				7A9D0037EA5D2650A86079ED /* Release */,
+				A9A8E622835E10AADD949126 /* Debug */,
+				C65B31114BB4876C0C4F8416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7018CA4827BBA852963A6FFE /* Build configuration list for PBXNativeTarget "Pods-AutoEncodeDecode-ClassProperty" */ = {
+		48DCF286606664A89FB43294 /* Build configuration list for PBXNativeTarget "Pods-Tests-AutoEncodeDecode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A37C77690A75343B65A317F7 /* Debug */,
-				AF21FCB5D6813684A94E4AA0 /* Release */,
+				8E2D39412F933E268DE89780 /* Debug */,
+				15BCEF9990BC5C4C35C2CEE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8C8255C2CEEB1FD393CA172 /* Build configuration list for PBXNativeTarget "Pods-AutoEncodeDecode" */ = {
+		B7C5EDDA2AB280D59E87BFBD /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2095296FE609C906E468ABA9 /* Debug */,
-				5224586F217610084DDF8F8E /* Release */,
+				412356EA28A5B4B0ACBA5EA6 /* Debug */,
+				E302853509FF187A1CC84A03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7808680B9E1B99A41927C3F /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		DFBC6D57E44060FD1CC23BE8 /* Build configuration list for PBXNativeTarget "Pods-AutoEncodeDecode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EFBC96005C669FABC6A7365E /* Debug */,
-				DF24B8C6CD35833FB0D2DA61 /* Release */,
+				0F0CE4E08779E6E524C84F67 /* Debug */,
+				41B5A6690BA635034CD66307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F360FDE417FC420C0A611808 /* Build configuration list for PBXNativeTarget "Pods-Tests-ClassProperty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200B07FFF13454FD8E09FC94 /* Debug */,
+				6862210B105714F3C41AB594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 62CC8F257A213D394238FE8D /* Project object */;
+	rootObject = 415C73995AC8773F99FBEBDF /* Project object */;
 }

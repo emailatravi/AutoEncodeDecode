@@ -8,7 +8,7 @@
 
 #import "NSObject+NSCoding.h"
 #import <objc/runtime.h>
-#import <ClassProperty/ClassProperty.h>
+#import <ClassProperty.h>
 
 @implementation NSObject (NSCoding)
 

@@ -1,0 +1,1 @@
+PODS_TESTS_CLASSPROPERTY_OTHER_LDFLAGS = -framework "Foundation"

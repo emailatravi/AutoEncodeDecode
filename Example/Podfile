@@ -2,7 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'AutoEncodeDecode', :exclusive => true do
   pod "AutoEncodeDecode", :path => "../"
-  pod 'ClassProperty'
+  pod 'ClassProperty', '~> 1.0.0'
 end
 
 target 'Tests', :exclusive => true do

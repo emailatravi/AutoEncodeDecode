@@ -1,4 +1,10 @@
 # AutoEncodeDecode
+
+[![Version](https://img.shields.io/cocoapods/v/AutoEncodeDecode.svg?style=flat)](http://cocoapods.org/pods/AutoEncodeDecode)
+[![License](https://img.shields.io/cocoapods/l/AutoEncodeDecode.svg?style=flat)](http://cocoapods.org/pods/AutoEncodeDecode)
+[![Platform](https://img.shields.io/cocoapods/p/AutoEncodeDecode.svg?style=flat)](http://cocoapods.org/pods/AutoEncodeDecode)
+
+### Summary
 Automatic encoding &amp; decoding  that conforms to NSCoding protocol (NSCoding / NSKeyed​Archiver). 
 
 To understand how persistance can be achived, go through these useful links 
@@ -12,7 +18,28 @@ Just imagine if your Model Class has hell lot of Instance Variables and you want
 1. `- (id)initWithCoder:(NSCoder *)decoder` and 
 2. `- (void)encodeWithCoder:(NSCoder *)encoder`
 
-Sample:
+### Usage
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+### Installation
+
+AutoEncodeDecode is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```
+pod "AutoEncodeDecode"
+```
+
+### Author
+
+Ravi Prakash Sahu, emailatravi@gmail.com
+
+### License
+
+AutoEncodeDecode is available under the MIT license. See the LICENSE file for more info.
+
+### Sample
 
 Model Class
 

@@ -1,17 +1,18 @@
 PODS:
-  - AutoEncodeDecode (1.0.0)
-  - ClassProperty (1.0.0)
+  - AutoEncodeDecode (1.0.1):
+    - ClassProperty (~> 1.0.0)
+  - ClassProperty (1.0.1)
 
 DEPENDENCIES:
   - AutoEncodeDecode (from `../`)
-  - ClassProperty
+  - ClassProperty (~> 1.0.0)
 
 EXTERNAL SOURCES:
   AutoEncodeDecode:
     :path: ../
 
 SPEC CHECKSUMS:
-  AutoEncodeDecode: 2f10411bfaa14be7798f6a6bc61c979fccf28573
-  ClassProperty: 69fae6c7b7ae6de6936dcd89b87e9cf7b019c813
+  AutoEncodeDecode: eeb5a21c52810600f3f416976f5dad273ef23ae5
+  ClassProperty: 5d36d71b1b9e880c87dd9a4c8484a69a6929f96f
 
 COCOAPODS: 0.36.1
