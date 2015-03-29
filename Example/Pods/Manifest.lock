@@ -1,0 +1,17 @@
+PODS:
+  - AutoEncodeDecode (1.0.0)
+  - ClassProperty (1.0.0)
+
+DEPENDENCIES:
+  - AutoEncodeDecode (from `../`)
+  - ClassProperty
+
+EXTERNAL SOURCES:
+  AutoEncodeDecode:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AutoEncodeDecode: 2f10411bfaa14be7798f6a6bc61c979fccf28573
+  ClassProperty: 69fae6c7b7ae6de6936dcd89b87e9cf7b019c813
+
+COCOAPODS: 0.36.1

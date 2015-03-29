@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'AutoEncodeDecode', :exclusive => true do
+  pod "AutoEncodeDecode", :path => "../"
+  pod 'ClassProperty'
+end
+
+target 'Tests', :exclusive => true do
+  pod "AutoEncodeDecode", :path => "../"
+
+  
+end
