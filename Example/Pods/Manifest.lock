@@ -1,5 +1,5 @@
 PODS:
-  - AutoEncodeDecode (1.0.1):
+  - AutoEncodeDecode (1.0.2):
     - ClassProperty (~> 1.0.0)
   - ClassProperty (1.0.1)
 
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AutoEncodeDecode: eeb5a21c52810600f3f416976f5dad273ef23ae5
+  AutoEncodeDecode: 4966c6b0b60522c0253c2e145de3be931ef84add
   ClassProperty: 5d36d71b1b9e880c87dd9a4c8484a69a6929f96f
 
 COCOAPODS: 0.36.1

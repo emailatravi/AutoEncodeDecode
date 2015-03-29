@@ -10,7 +10,7 @@
 #define COCOAPODS_POD_AVAILABLE_AutoEncodeDecode
 #define COCOAPODS_VERSION_MAJOR_AutoEncodeDecode 1
 #define COCOAPODS_VERSION_MINOR_AutoEncodeDecode 0
-#define COCOAPODS_VERSION_PATCH_AutoEncodeDecode 1
+#define COCOAPODS_VERSION_PATCH_AutoEncodeDecode 2
 
 // ClassProperty
 #define COCOAPODS_POD_AVAILABLE_ClassProperty
