@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "AutoEncodeDecode"
-  s.version          = "1.0.2"
+  s.version          = "1.0.3"
   s.summary          = "Automatic encoding & decoding that conforms to NSCoding protocol"
   s.homepage         = "https://github.com/emailatravi/AutoEncodeDecode"
   s.license          = 'MIT'

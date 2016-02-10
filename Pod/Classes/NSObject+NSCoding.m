@@ -26,7 +26,7 @@
 
 #import "NSObject+NSCoding.h"
 #import <objc/runtime.h>
-#import <ClassProperty.h>
+#import <ClassProperty/ClassProperty.h>
 
 @implementation NSObject (NSCoding)
 
